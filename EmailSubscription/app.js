@@ -1,7 +1,6 @@
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwsJ_7sLv1MOVOEVhb9qXN72N8llhcGYs9Gl6O8EyBgvARjA4l3ew45HmNFSh4W8-ZO/exec';
 const form = document.forms['submit-to-google-sheet'];
 const msg = document.getElementById('msg');
-
 if (form) {
   form.addEventListener('submit', e => {
     e.preventDefault();
