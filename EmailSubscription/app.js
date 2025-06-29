@@ -13,6 +13,8 @@ if (form) {
         form.reset();
       })
       .catch(error => {
+        console.log("Error =>", error);
+        console.log("Error in Makeing a Request ");
         msg.innerHTML = "Something went wrong. Please try again.";
         console.error('Error!', error.message);
       });
